@@ -1,6 +1,6 @@
 /**
- * @license
- * Copyright 2022 Google LLC
+<block type="maze_moveForward"></block>
+<block type="maze_turn"><field name="DIR">turnLeft</field></block><block type="maze_turn"><field name="DIR">turnRight</field></block>
  * SPDX-License-Identifier: Apache-2.0
  */
 

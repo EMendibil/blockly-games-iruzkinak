@@ -47,8 +47,8 @@ if (location.host === 'blockly-games.appspot.com') {
       // Third choice: The browser's language.
       lang = navigator.language;
       if (window['BlocklyGamesLanguages'].indexOf(lang) === -1) {
-        // Fourth choice: English.
-        lang = 'en';
+// Fourth choice: Custom.
+lang = 'eu'
       }
     }
   }

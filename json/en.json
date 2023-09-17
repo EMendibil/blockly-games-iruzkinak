@@ -1,6 +1,6 @@
 {
 	"@metadata": {
-		"lastupdated": "2023-08-29 07:37:41.177031",
+		"lastupdated": "2023-09-17 15:11:21.618217",
 		"locale": "en",
 		"messagedocumentation": "qqq"
 	},
@@ -94,6 +94,7 @@
 	"Maze.capacity2": "You have %2 blocks left.",
 	"Maze.runTooltip": "Makes the player do what the blocks say.",
 	"Maze.resetTooltip": "Put the player back at the start of the maze.",
+	"Maze.helpFirst": "A",
 	"Maze.helpStack": "Stack a couple of 'move forward' blocks together to help me reach the goal.",
 	"Maze.helpOneTopBlock": "On this level, you need to stack together all of the blocks in the white workspace.",
 	"Maze.helpRun": "Run your program to see what happens.",

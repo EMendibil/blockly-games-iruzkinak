@@ -34,7 +34,7 @@ BlocklyGames.storageName = 'maze';
 
 const MAX_BLOCKS =
 //Maximum Blocks
-    [Infinity]
+[Infinity]
     [BlocklyGames.LEVEL - 1];
 
 // Crash type constants.
@@ -100,14 +100,9 @@ const SquareType = {
 // for ease of reading and writing the static mazes.
 const map = [
 // Level 1.
- [[0, 0, 0, 1, 0, 0, 0],
-  [0, 0, 0, 1, 0, 0, 0],
-  [0, 0, 0, 1, 0, 0, 0],
-  [0, 0, 0, 1, 0, 0, 0],
-  [0, 0, 2, 1, 3, 0, 0],
-  [0, 0, 0, 0, 0, 0, 0],
-  [0, 0, 0, 0, 0, 0, 0]],]
-  [BlocklyGames.LEVEL - 1];
+[[0, 0, 0, 0, 0, 0, 0], [0, 1, 1, 1, 0, 0, 0], [0, 2, 0, 1, 0, 1, 3], [0, 0, 0, 1, 0, 1, 0], [0, 0, 0, 1, 1, 1, 0], [0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0]]
+,]
+[BlocklyGames.LEVEL - 1];
 
 /**
  * Measure maze dimensions and set sizes.
@@ -403,8 +398,7 @@ function init() {
 
   const defaultXml =
       '<xml>' +
-        '<block movable="' + (BlocklyGames.LEVEL !== 1) + '" ' +
-        'type="maze_moveForward" x="70" y="70"></block>' +
+
       '</xml>';
   BlocklyInterface.loadBlocks(defaultXml, false);
 

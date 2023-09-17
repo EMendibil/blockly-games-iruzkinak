@@ -77,11 +77,22 @@ ${Maze.html.helpDialogs_()}
  */
 Maze.html.toolbox_ = function(level) {
 //Accepted Blocks
-  let xml = `
+let xml = `
 <block type="maze_moveForward"></block>
-<block type="maze_turn"><field name="DIR">turnLeft</field></block>
-<block type="maze_turn"><field name="DIR">turnRight</field></block>
+<block type="maze_turn"><field name="DIR">turnLeft</field></block><block type="maze_turn"><field name="DIR">turnRight</field></block>
+
+
+
+
+
+
+
+
+
+
+
 `;
+//Accepted Blocks End
   return `<xml id="toolbox" xmlns="https://developers.google.com/blockly/xml">${xml}</xml>`;
 };
 
@@ -96,7 +107,7 @@ Maze.html.toolbox_ = function(level) {
   <table><tr><td>
     <img src="common/help.png">
   </td><td>&nbsp;</td><td>
-    ${BlocklyGames.getMsg('Maze.helpStack', true)}
+    ${BlocklyGames.getMsg('Maze.helpFirst', true)}
   </td><td valign="top">
     <img src="maze/help_stack.png" class="mirrorImg" height=63 width=136>
   </td></tr></table>
